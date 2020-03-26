@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MotionOrientation"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "An observer to notify the orientation of iOS device changed, using CoreMotion for taking the orientation in 'Orientation Lock'."
   s.homepage     = "https://github.com/tastyone/MotionOrientation"
   
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.author       = { "Sangwon Park" => "" }
   
   s.platform     = :ios
-  s.source       = { :git => "https://github.com/tastyone/MotionOrientation.git", :commit => "67ecd027dfd629380133806ad9ad98f50b40f0ba" }
+  s.source       = { :git => "https://github.com/rushairer/MotionOrientation.git", :tag => s.version.to_s }
   s.source_files  = 'MotionOrientation.{h,m}'
   s.preserve_paths = "README.md"
   s.frameworks = 'CoreMotion', 'CoreGraphics'
