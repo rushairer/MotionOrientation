@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MotionOrientation"
-  s.version      = "0.0.2"
+  s.version      = "0.2.0"
   s.summary      = "An observer to notify the orientation of iOS device changed, using CoreMotion for taking the orientation in 'Orientation Lock'."
   s.homepage     = "https://github.com/tastyone/MotionOrientation"
   
